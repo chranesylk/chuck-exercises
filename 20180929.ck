@@ -9,3 +9,6 @@ SinOsc s => dac;
 
 1.0 => s.gain;
 0.3::second => now;
+
+0.0 => s.gain;
+0.3::second => now;
